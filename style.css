@@ -1,0 +1,54 @@
+
+.container{
+  text-align: center;
+
+}
+
+
+
+.container  *{
+  position: relative;
+
+
+}
+
+
+
+.sale{
+  background-color: green;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.smartphone > .sale{
+  background-color: red;
+}
+
+.smartphone, .tablet, .cuffie{
+
+display: inline-block;
+
+}
+
+
+.heart{
+  color: red;
+  position: absolute;
+  bottom: 5px;
+  font-size: 50px;
+  width: 100%;
+  display: none;
+
+}
+
+
+.tablet:hover > .heart, .smartphone:hover > .heart, .cuffie:hover > .heart{
+  display: block;
+
+}
+
+
+.second-row{
+  margin-top: 20px;
+}
